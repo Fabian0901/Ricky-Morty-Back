@@ -4,10 +4,6 @@ const { DB_USER, DB_PASSWORD, DB_HOST, DB_DEPLOY } = process.env;
 const FavoriteModel = require("./models/Favorite");
 const UserModel = require("./models/User");
 
-// EJERCICIO 03
-// A la instancia de Sequelize le falta la URL de conexión. ¡Agrégala!
-// Recuerda pasarle la información de tu archivo '.env'.
-
 // URL ----> postgres://DB_USER:DB_PASSWORD@DB_HOST/rickandmorty
 // const sequelize = new Sequelize(
 //   `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/rickandmorty`,
